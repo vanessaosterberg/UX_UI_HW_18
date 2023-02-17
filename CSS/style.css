@@ -1,0 +1,50 @@
+﻿nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+footer {
+    background: #373738;
+}
+
+    footer ul li {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    height: inherit;
+    padding: inherit;
+    width: 500px;
+    margin: 0 auto;
+}
+
+img {
+    height: inherit;
+    padding: inherit;
+    width: inherit;
+    margin: inherit;
+}
