@@ -10,6 +10,7 @@ ul {
 
 footer {
     background: #373738;
+    padding: 20px;
 }
 
     footer ul li {
@@ -17,7 +18,25 @@ footer {
         vertical-align: top;
     }
 
+h1 {
+    padding-left: 5%;
+}
 
+.flexContainer {
+    display: flex;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.flexContainer div {
+    padding: 0 10px 0 10px;
+    border: solid;
+    border-color: black;
+}
+
+.navigation {
+    background-color: #DDE8D9;
+}
 
 .inline-block {
     display: inline-block;
@@ -25,9 +44,14 @@ footer {
 }
 
 .logo {
-    width: 23%;
+    width: 40%;
     padding: 1%;
-    text-align: center;
+}
+
+.header-img {
+    width: 60%;
+    padding: 1%;
+    float:right;
 }
 
 .heroImg {
