@@ -34,7 +34,54 @@ h1 {
     border-color: black;
 }
 
-.
+.myWork {
+    grid-area: auto;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: 250px 250px 250px;
+}
+
+.workOne {
+    background-color: #BFCED2;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workTwo {
+    background-color: #E3D4DF;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.workThree {
+    background-color: #D2CBC2;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.myWorkImage{
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+    border: solid;
+    margin: 10px 10px 10px 20px;
+}
+
+.workTextRight {
+    text-align: right;
+}
+
+.workTextLeft {
+    text-align: left;
+}
 
 .navigation {
     background-color: #DDE8D9;
@@ -73,4 +120,11 @@ img {
     padding: inherit;
     width: inherit;
     margin: inherit;
+}
+
+@media only screen and (max-width: 600){
+    .flextContainer{
+        grid-template-rows: 80px 80px 80px 80px 80px;
+        grid-template-columns: 1fr;
+    }
 }
